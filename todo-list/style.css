@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #262a2f;
+    color: #fff;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    background: white;
+}
+
+.add-input {
+    outline: none;
+}
+
+.add-button {
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.add-button:hover {
+    color: white;
+    background-color: #333;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: #333;
+    font-size: 1.5rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.todo button {
+    /* background: #333; */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: #117703;
+}
+
+.delete-btn {
+    background: #a00606;
+}
+
+.todo-item {
+    padding: 0 0.5em;
+}
+
+.fa-check,
+.fa-trash {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
